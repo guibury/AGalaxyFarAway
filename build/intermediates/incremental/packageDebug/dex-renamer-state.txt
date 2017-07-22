@@ -1,0 +1,7 @@
+#Fri Jul 21 22:33:23 BRT 2017
+base.0=/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d82c7a04dd780572f8613f04b3c0c7d760463a2b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e5adc7f319e9e362b005cab50ede8a323f1036cf/classes.dex
+base.1=/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e5adc7f319e9e362b005cab50ede8a323f1036cf
+file.0=/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d82c7a04dd780572f8613f04b3c0c7d760463a2b/classes.dex

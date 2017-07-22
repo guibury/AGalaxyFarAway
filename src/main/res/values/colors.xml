@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design colors -->
+    <color name="colorPrimary">#F7960B</color>
+    <color name="colorPrimaryDark">#f57c00</color>
+    <color name="colorAccent">#3f51b5</color>
+
+    <!-- Colors util -->
+    <color name="colorTitle">#616161</color>
+</resources>

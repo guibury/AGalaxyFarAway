@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">A Galaxy Far Away</string>
+    <string name="action_opening_craw">See Opening Craw</string>
+    <string name="action_mark_as_favorite">Mark as favorite</string>
+
+    <!--Favorites-->
+    <string name="favorite_awakens">I know, I know... Rey is great!</string>
+    <string name="favorite_old_school">You are old school! Right!?</string>
+    <string name="favorite_prequel">Your favorite is from the prequel? Really!?</string>
+    <string name="favorite_strikes">Ok! Everybody knows that Empire Strikes Back is the best</string>
+
+
+    <!--Titles-->
+    <string name="title_activity_film">FilmActivity</string>
+    <string name="title_characters">Chars</string>
+    <string name="title_film_one">A New Hope</string>
+    <string name="title_film_two">The Empire Strikes Back</string>
+    <string name="title_film_three">Return of the Jedi</string>
+    <string name="title_film_four">The Phantom Menace</string>
+    <string name="title_film_five">Attack of the Clones</string>
+    <string name="title_film_six">Revenge of the Sith</string>
+    <string name="title_film_seven">The Force Awakens</string>
+    <string name="title_home">Home</string>
+    <string name="title_planets">Planets</string>
+    <string name="title_species">Species</string>
+    <string name="title_starships">Starships</string>
+    <string name="title_vehicles">Vehicles</string>
+
+    <string name="toolbar">Movies Guide</string>
+
+    <!--Years-->
+    <string name="year_film_one">1977</string>
+    <string name="year_film_two">1980</string>
+    <string name="year_film_three">1983</string>
+    <string name="year_film_four">1999</string>
+    <string name="year_film_five">2002</string>
+    <string name="year_film_six">2005</string>
+    <string name="year_film_seven">2015</string>
+</resources>

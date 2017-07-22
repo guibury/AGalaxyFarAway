@@ -1,0 +1,116 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:7:5-29:19
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/bury/.android/build-cache/7a1426e08b4cc3b7bb7ce06775c5f42f9fb5f44d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:1.3.3] /Users/bury/.android/build-cache/2e337865b362a0c61f946c408da14267381ef8ec/output/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/bury/.android/build-cache/011033f80f2290a25f060f1a32cae5753bdd9e32/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/bury/.android/build-cache/8393d927f5d4171b616d152769d2a52faebff45e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/bury/.android/build-cache/e12f6db257d96d9b4aae4e186c4e0502e3074563/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/bury/.android/build-cache/96f9c6d81a939081896353667294032f9cbcc40c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/bury/.android/build-cache/0fed0fb1233f48b68e7e72553f63240887306b45/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/bury/.android/build-cache/b7f588131469227cbf32b0d16a19049379de4608/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/bury/.android/build-cache/64d23fc379c23d36ce8362f22e4afcfe31ab4a55/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/bury/.android/build-cache/5020d16c9c863f4739773509b8c2a524a4df1bc7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/bury/.android/build-cache/3756c6082d1ebd367c514e3f8f0fcafc9bf7287e/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.guilhermebury.agalaxyfaraway.activity.MainActivity
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:14:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.guilhermebury.agalaxyfaraway.activity.FilmActivity
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:21:9-28:20
+	android:label
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:23:13-56
+	android:parentActivityName
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:24:13-64
+	android:name
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:22:13-50
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:25:13-27:90
+	android:value
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:27:17-87
+	android:name
+		ADDED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml:26:17-63
+uses-sdk
+INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/bury/.android/build-cache/7a1426e08b4cc3b7bb7ce06775c5f42f9fb5f44d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.aurelhubert:ahbottomnavigation:1.3.3] /Users/bury/.android/build-cache/2e337865b362a0c61f946c408da14267381ef8ec/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/bury/.android/build-cache/011033f80f2290a25f060f1a32cae5753bdd9e32/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/bury/.android/build-cache/8393d927f5d4171b616d152769d2a52faebff45e/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/bury/.android/build-cache/543c5578159fb2f500ce4c40e6dfa898ca36953c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/bury/.android/build-cache/e12f6db257d96d9b4aae4e186c4e0502e3074563/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/bury/.android/build-cache/96f9c6d81a939081896353667294032f9cbcc40c/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/bury/.android/build-cache/0fed0fb1233f48b68e7e72553f63240887306b45/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/bury/.android/build-cache/b7f588131469227cbf32b0d16a19049379de4608/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/bury/.android/build-cache/64d23fc379c23d36ce8362f22e4afcfe31ab4a55/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/bury/.android/build-cache/5020d16c9c863f4739773509b8c2a524a4df1bc7/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/bury/.android/build-cache/3756c6082d1ebd367c514e3f8f0fcafc9bf7287e/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] /Users/bury/.android/build-cache/7a1426e08b4cc3b7bb7ce06775c5f42f9fb5f44d/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] /Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/bury/.android/build-cache/011033f80f2290a25f060f1a32cae5753bdd9e32/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/bury/.android/build-cache/8393d927f5d4171b616d152769d2a52faebff45e/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/bury/.android/build-cache/543c5578159fb2f500ce4c40e6dfa898ca36953c/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/bury/.android/build-cache/e12f6db257d96d9b4aae4e186c4e0502e3074563/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/bury/.android/build-cache/96f9c6d81a939081896353667294032f9cbcc40c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/bury/.android/build-cache/0fed0fb1233f48b68e7e72553f63240887306b45/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/bury/.android/build-cache/b7f588131469227cbf32b0d16a19049379de4608/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/bury/.android/build-cache/64d23fc379c23d36ce8362f22e4afcfe31ab4a55/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/bury/.android/build-cache/5020d16c9c863f4739773509b8c2a524a4df1bc7/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/bury/.android/build-cache/3756c6082d1ebd367c514e3f8f0fcafc9bf7287e/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] /Users/bury/.android/build-cache/7a1426e08b4cc3b7bb7ce06775c5f42f9fb5f44d/output/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] /Users/bury/.android/build-cache/7a1426e08b4cc3b7bb7ce06775c5f42f9fb5f44d/output/AndroidManifest.xml:23:9-47

@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/notification_background.xml",
+        "source": "/Users/bury/.android/build-cache/2e337865b362a0c61f946c408da14267381ef8ec/output/res/drawable/notification_background.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/phanton_menace.jpg",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/phanton_menace.jpg"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/ic_planet.xml",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/ic_planet.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/revenge_sith.jpg",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/revenge_sith.jpg"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/ic_specie.xml",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/ic_specie.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/ic_vehicle.xml",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/ic_vehicle.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/new_hope.png",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/new_hope.png"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/main_cover.jpg",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/main_cover.jpg"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/ic_starship.xml",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/ic_starship.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/force_awakens.jpg",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/force_awakens.jpg"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/not_favorite.png",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/not_favorite.png"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/ic_character.xml",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/ic_character.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/strikes_back.png",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/strikes_back.png"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/attack_clones.jpg",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/attack_clones.jpg"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/bury/.android/build-cache/eb4f34ccc9b749715e14f1a4cf39981b672f030a/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/favorite.png",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/favorite.png"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/return_jedi.png",
+        "source": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/src/main/res/drawable/return_jedi.png"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/bury/Documents/TI/Android/AGalaxyFarAway/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/bury/.android/build-cache/4d31f67df83a376e176ef609506377593a017bd9/output/res/drawable/design_fab_background.xml"
+    }
+]
