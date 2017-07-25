@@ -130,7 +130,6 @@ public class MainActivity extends AppCompatActivity {
             this.includeEdge = includeEdge;
         }
 
-        //TODO: make it cleaner
         @Override
         public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
             int position = parent.getChildAdapterPosition(view);
