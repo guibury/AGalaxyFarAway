@@ -1,4 +1,4 @@
-package com.guilhermebury.agalaxyfaraway.fragment;
+package com.guilhermebury.agalaxyfaraway.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

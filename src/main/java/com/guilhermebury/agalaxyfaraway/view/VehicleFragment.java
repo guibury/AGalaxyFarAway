@@ -1,4 +1,4 @@
-package com.guilhermebury.agalaxyfaraway.fragment;
+package com.guilhermebury.agalaxyfaraway.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -16,18 +16,18 @@ import com.guilhermebury.agalaxyfaraway.R;
  * Created by Guilherme Bury on 30/06/2017.
  */
 
-public class SpecieFragment extends Fragment {
+public class VehicleFragment extends Fragment {
 
-    public SpecieFragment() {}
+    public VehicleFragment() {}
 
     private FrameLayout fragmentContainer;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceStace) {
-        View view = inflater.inflate(R.layout.fragment_specie, container, false);
+        View view = inflater.inflate(R.layout.fragment_vehicle, container, false);
 
-        fragmentContainer = (FrameLayout) view.findViewById(R.id.fragment_specie_container);
+        fragmentContainer = (FrameLayout) view.findViewById(R.id.fragment_vehicle_container);
         return view;
     }
 

@@ -1,28 +1,24 @@
-package com.guilhermebury.agalaxyfaraway.activity;
+package com.guilhermebury.agalaxyfaraway.view;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationViewPager;
 import com.guilhermebury.agalaxyfaraway.R;
-import com.guilhermebury.agalaxyfaraway.adapter.BottomViewPagerAdapter;
 import com.guilhermebury.agalaxyfaraway.domain.Film;
 import com.guilhermebury.agalaxyfaraway.domain.Planet;
 import com.guilhermebury.agalaxyfaraway.domain.Specie;
 import com.guilhermebury.agalaxyfaraway.domain.Starship;
 import com.guilhermebury.agalaxyfaraway.domain.Vehicle;
-import com.guilhermebury.agalaxyfaraway.fragment.CharacterFragment;
-import com.guilhermebury.agalaxyfaraway.fragment.PlanetFragment;
-import com.guilhermebury.agalaxyfaraway.fragment.SpecieFragment;
-import com.guilhermebury.agalaxyfaraway.fragment.StarshipFragment;
-import com.guilhermebury.agalaxyfaraway.fragment.VehicleFragment;
 
 import java.util.ArrayList;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
 
 
 /**
@@ -50,19 +46,23 @@ public class FilmActivity extends AppCompatActivity {
     //Bottom Navigation
     private BottomViewPagerAdapter bottomViewPagerAdapter;
     private ArrayList<AHBottomNavigationItem> bottomNavigationItems = new ArrayList<>();
-    private AHBottomNavigationViewPager viewPagerBottom;
-    private AHBottomNavigation bottomNavigation;
+
+    @InjectView(R.id.view_pager_bottom)
+    AHBottomNavigationViewPager viewPagerBottom;
+
+    @InjectView(R.id.bottom_navigation)
+    AHBottomNavigation bottomNavigation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_film);
+        ButterKnife.inject(this);
+
         initUI();
     }
 
     private void initUI() {
-        bottomNavigation = (AHBottomNavigation) findViewById(R.id.bottom_navigation);
-        viewPagerBottom = (AHBottomNavigationViewPager) findViewById(R.id.view_pager_bottom);
         viewPagerBottom.setOffscreenPageLimit(4);
 
         bottomViewPagerAdapter = new BottomViewPagerAdapter(getSupportFragmentManager());

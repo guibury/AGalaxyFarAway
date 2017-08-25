@@ -1,11 +1,11 @@
-package com.guilhermebury.agalaxyfaraway.activity;
+package com.guilhermebury.agalaxyfaraway.view;
 
 import android.content.res.Resources;
 import android.graphics.Rect;
+import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -16,11 +16,13 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.guilhermebury.agalaxyfaraway.R;
-import com.guilhermebury.agalaxyfaraway.adapter.MainAdapter;
 import com.guilhermebury.agalaxyfaraway.domain.Film;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
 
 /**
  * Created by Guilherme Bury on 20/04/2017.
@@ -28,7 +30,18 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
+    @InjectView(R.id.recycler_view)
+    RecyclerView recyclerView;
+
+    @InjectView(R.id.toolbar)
+    Toolbar toolbar;
+
+    @InjectView(R.id.collapsing_toolbar)
+    CollapsingToolbarLayout collapsingToolbar;
+
+    @InjectView(R.id.appbar)
+    AppBarLayout appBarLayout;
+
     private MainAdapter adapter;
     private List<Film> films;
 
@@ -36,12 +49,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        ButterKnife.inject(this);
+
         setSupportActionBar(toolbar);
-
         initCollapsingToolbar();
-
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
         films = new ArrayList<>();
         adapter = new MainAdapter(this, films);
@@ -62,9 +73,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initCollapsingToolbar() {
-        final CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitle(getString(R.string.toolbar));
-        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
         appBarLayout.setExpanded(true);
 
         //hiding and showing title on scroll

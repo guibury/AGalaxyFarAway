@@ -1,4 +1,4 @@
-package com.guilhermebury.agalaxyfaraway.fragment;
+package com.guilhermebury.agalaxyfaraway.view;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.guilhermebury.agalaxyfaraway.R;
-import com.guilhermebury.agalaxyfaraway.data.RetrofitService;
-import com.guilhermebury.agalaxyfaraway.data.SWApiService;
+import com.guilhermebury.agalaxyfaraway.model.RetrofitService;
+import com.guilhermebury.agalaxyfaraway.model.SWApiService;
 import com.guilhermebury.agalaxyfaraway.domain.Character;
 
 import retrofit2.Call;

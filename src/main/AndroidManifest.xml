@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,12 +19,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.FilmActivity"
+            android:name=".view.FilmActivity"
             android:label="@string/title_activity_film"
-            android:parentActivityName=".activity.MainActivity">
+            android:parentActivityName=".view.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.guilhermebury.agalaxyfaraway.activity.MainActivity" />
+                android:value="com.guilhermebury.agalaxyfaraway.view.MainActivity" />
         </activity>
     </application>
 

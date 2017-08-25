@@ -1,4 +1,4 @@
-package com.guilhermebury.agalaxyfaraway.adapter;
+package com.guilhermebury.agalaxyfaraway.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,8 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.guilhermebury.agalaxyfaraway.activity.FilmActivity;
-import com.guilhermebury.agalaxyfaraway.data.EnumFilmsPosition;
+import com.guilhermebury.agalaxyfaraway.model.EnumFilmsPosition;
 import com.guilhermebury.agalaxyfaraway.domain.Film;
 import com.guilhermebury.agalaxyfaraway.R;
 

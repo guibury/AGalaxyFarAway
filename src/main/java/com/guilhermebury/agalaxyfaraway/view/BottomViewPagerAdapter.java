@@ -1,4 +1,4 @@
-package com.guilhermebury.agalaxyfaraway.adapter;
+package com.guilhermebury.agalaxyfaraway.view;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

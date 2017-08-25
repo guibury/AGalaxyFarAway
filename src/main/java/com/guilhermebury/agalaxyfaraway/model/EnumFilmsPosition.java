@@ -1,4 +1,4 @@
-package com.guilhermebury.agalaxyfaraway.data;
+package com.guilhermebury.agalaxyfaraway.model;
 
 /**
  * Created by Guilherme Bury on 21/07/17.

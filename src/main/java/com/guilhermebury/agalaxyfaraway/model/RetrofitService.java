@@ -1,4 +1,4 @@
-package com.guilhermebury.agalaxyfaraway.data;
+package com.guilhermebury.agalaxyfaraway.model;
 
 import com.guilhermebury.agalaxyfaraway.domain.Character;
 
