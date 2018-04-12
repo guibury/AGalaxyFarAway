@@ -17,6 +17,9 @@ import com.guilhermebury.agalaxyfaraway.R;
 
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 /**
  * Created by Guilherme Bury on 20/04/2017.
  */
@@ -27,18 +30,24 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.FilmHolder>{
     boolean isFavorite;
 
     public class FilmHolder extends RecyclerView.ViewHolder {
-        public TextView title;
-        public TextView releaseDate;
-        public ImageView cover;
-        public ImageView favorite;
-        public int holderPosition;
+
+        @BindView(R.id.title)
+        TextView title;
+
+        @BindView(R.id.year)
+        TextView releaseDate;
+
+        @BindView(R.id.cover)
+        ImageView cover;
+
+        @BindView(R.id.favorite)
+        ImageView favorite;
+
+        private int holderPosition;
 
         public FilmHolder(final View view) {
             super(view);
-            title = (TextView) view.findViewById(R.id.title);
-            releaseDate = (TextView) view.findViewById(R.id.year);
-            cover = (ImageView) view.findViewById(R.id.cover);
-            favorite = (ImageView) view.findViewById(R.id.favorite);
+            ButterKnife.bind(this, view);
 
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -75,7 +84,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.FilmHolder>{
         holder.favorite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //long adapterId = getItemId(holder.getAdapterPosition());
                 isFavorite = changeFavoriteImage(holder);
             }
         });
@@ -87,33 +95,38 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.FilmHolder>{
             return false;
         } else {
             Glide.with(context).load(R.drawable.favorite).into(holder.favorite);
-            favoriteText(holder);
+            favoriteText(holder.holderPosition);
             return true;
         }
     }
 
-    private void favoriteText(FilmHolder holder) {
-        if(holder != null) {
-            if(holder.holderPosition == EnumFilmsPosition.THE_PHANTOM_MENACE.getPosition()
-                    || holder.holderPosition == EnumFilmsPosition.ATTACK_OF_THE_CLONES.getPosition()
-                    || holder.holderPosition == EnumFilmsPosition.REVENGE_OF_THE_SITH.getPosition()) {
-                Toast.makeText(context, R.string.favorite_prequel, Toast.LENGTH_LONG).show();
+    private void favoriteText(int holderPosition) {
+        EnumFilmsPosition filmsPosition = EnumFilmsPosition.values()[holderPosition];
 
-            } else if(holder.holderPosition == EnumFilmsPosition.A_NEW_HOPE.getPosition()
-                    || holder.holderPosition == EnumFilmsPosition.RETURN_OF_THE_JEDI.getPosition()) {
-                Toast.makeText(context, R.string.favorite_old_school, Toast.LENGTH_LONG).show();
-
-            } else if(holder.holderPosition == EnumFilmsPosition.THE_EMPIRE_STRIKES_BACK.getPosition()) {
-                Toast.makeText(context, R.string.favorite_strikes, Toast.LENGTH_LONG).show();
-
-            } else {
-                Toast.makeText(context, R.string.favorite_awakens, Toast.LENGTH_LONG).show();
-            }
+        switch (filmsPosition) {
+            case THE_PHANTOM_MENACE:
+            case ATTACK_OF_THE_CLONES:
+            case REVENGE_OF_THE_SITH:
+                makeToastText(R.string.favorite_prequel);
+                break;
+            case A_NEW_HOPE:
+            case RETURN_OF_THE_JEDI:
+                makeToastText(R.string.favorite_old_school);
+                break;
+            case THE_EMPIRE_STRIKES_BACK:
+                makeToastText(R.string.favorite_strikes);
+                break;
+            default:
+                makeToastText(R.string.favorite_awakens);
         }
     }
 
     @Override
     public int getItemCount() {
         return filmList.size();
+    }
+
+    private void makeToastText(int messageId) {
+        Toast.makeText(context, messageId, Toast.LENGTH_LONG).show();
     }
 }
